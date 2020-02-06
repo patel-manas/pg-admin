@@ -1,0 +1,50 @@
+user role: tenant / manager
+
+tenant user model:
+first Name
+last Name
+email
+mob
+pg id
+
+
+manager usermodel:
+pdid:
+user: {
+    first Name
+    last Name
+    email
+    mob
+},
+pg: {
+    Name
+    location
+    appliances : [
+        {
+            type: washing machine,
+            list: [
+                {
+                    id: ,
+                    brand
+                    model
+                    ...
+                    ...
+                    slots: [[2-4: true]]
+                }
+            ]
+        }
+    ]
+    amenities: {
+        kitchen: [
+            {
+                id
+                location
+                nickname
+                slots
+            }
+        ],
+        tabletennis: [
+            
+        ]
+    }
+}
